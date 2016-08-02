@@ -9,3 +9,4 @@ C:\Users\Dmitry\Documents\GitHub\Sentroller-UIDEV\UIDEV\UIDEV\obj\Debug\UIDEV.xm
 C:\Users\Dmitry\Documents\GitHub\Sentroller-UIDEV\UIDEV\UIDEV\obj\Debug\UIDEV.pdb
 C:\Users\Dmitry\Documents\GitHub\Sentroller-UIDEV\UIDEV\UIDEV\bin\Debug\UIDEV.pdb
 C:\Users\Dmitry\Documents\GitHub\Sentroller-UIDEV\UIDEV\UIDEV\bin\Debug\UIDEV.xml
+C:\Users\Dmitry\Documents\GitHub\Sentroller-UIDEV\UIDEV\UIDEV\obj\Debug\UIDEV.vbprojResolveAssemblyReference.cache
