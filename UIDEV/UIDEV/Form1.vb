@@ -71,7 +71,7 @@ Public Class Form1
                 isConnected = True
                 sentrollerSearchTimer.Enabled = False
                 SerialPort1.ReadLine()    'get rid of echo
-                terminalFeed.Text = terminalFeed.Text + SerialPort1.ReadExisting
+                terminalFeed.Text = SerialPort1.ReadLine
                 Return
             End If
             SerialPort1.Close()
