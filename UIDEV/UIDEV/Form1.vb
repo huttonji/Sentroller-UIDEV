@@ -21,8 +21,8 @@ Public Class Form1
     Delegate Sub setTextCallBack(ByVal [text] As String)  'a delegate points to a function (unknown before runtime)
 
     Dim terminalFeed As New TextBox With
-      {.BorderStyle = 0, .Left = 36, .Top = 808, .Width = 320, .Height = 805, .ForeColor = Color.Lime,
-       .BackColor = Color.Black, .Font = New Font("Microsoft Sans Serif", 9), .Cursor = Cursors.Arrow, .Multiline = True, .ScrollBars = ScrollBars.Vertical}
+      {.BorderStyle = 0, .Left = 36, .Top = 808, .Width = 320, .Height = 82, .ForeColor = Color.Lime,
+       .BackColor = Color.Black, .Font = New Font("Microsoft Sans Serif", 9), .Cursor = Cursors.Arrow, .Multiline = True}
     'add the box
 
 
@@ -70,7 +70,7 @@ Public Class Form1
             If SerialPort1.BytesToRead > 0 Then
                 isConnected = True
                 sentrollerSearchTimer.Enabled = False
-                ' SerialPort1.DiscardOutBuffer()
+                SerialPort1.ReadLine()    'get rid of echo
                 terminalFeed.Text = terminalFeed.Text + SerialPort1.ReadExisting
                 Return
             End If
@@ -80,7 +80,11 @@ Public Class Form1
             SerialPort1.PortName = availablePorts(connectAttempt_PortNumber)
 
             SerialPort1.Open()
-            SerialPort1.WriteLine("ver")
+            SerialPort1.WriteLine("pa55word")
+            While SerialPort1.BytesToWrite > 0
+            End While
+            SerialPort1.DiscardOutBuffer()
+            SerialPort1.DiscardInBuffer()
         Catch ex As Exception
         End Try
 
