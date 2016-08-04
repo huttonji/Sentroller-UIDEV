@@ -24,12 +24,20 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.SerialPort1 = New System.IO.Ports.SerialPort(Me.components)
+        Me.VScrollBar1 = New System.Windows.Forms.VScrollBar()
         Me.terminalOutput = New System.Windows.Forms.TextBox()
         Me.sentrollerSearchTimer = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
         'SerialPort1
         '
+        '
+        'VScrollBar1
+        '
+        Me.VScrollBar1.Location = New System.Drawing.Point(664, 787)
+        Me.VScrollBar1.Name = "VScrollBar1"
+        Me.VScrollBar1.Size = New System.Drawing.Size(17, 80)
+        Me.VScrollBar1.TabIndex = 0
         '
         'terminalOutput
         '
@@ -57,6 +65,7 @@ Partial Class Form1
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1417, 911)
         Me.Controls.Add(Me.terminalOutput)
+        Me.Controls.Add(Me.VScrollBar1)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
@@ -64,6 +73,7 @@ Partial Class Form1
 
     End Sub
     Friend WithEvents SerialPort1 As System.IO.Ports.SerialPort
+    Friend WithEvents VScrollBar1 As System.Windows.Forms.VScrollBar
     Friend WithEvents terminalOutput As System.Windows.Forms.TextBox
     Friend WithEvents sentrollerSearchTimer As System.Windows.Forms.Timer
 
