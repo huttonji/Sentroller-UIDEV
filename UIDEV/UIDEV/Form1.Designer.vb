@@ -267,7 +267,7 @@ Partial Class Form1
         Me.Controls.Add(Me.terminalOutput)
         Me.Controls.Add(Me.VScrollBar1)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "UIDEV"
         Me.SplitContainer1.Panel1.ResumeLayout(False)
         Me.SplitContainer1.Panel1.PerformLayout()
         Me.SplitContainer1.Panel2.ResumeLayout(False)
