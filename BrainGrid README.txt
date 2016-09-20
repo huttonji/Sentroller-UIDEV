@@ -4,3 +4,4 @@
 -Instaled Java 1.6
 -Installed Java 1.7 (MUST BE 32bit!)
 -Installed Android SDK
+x
