@@ -136,7 +136,7 @@ Partial Class Form1
         Me.selectRTDoff.AutoSize = True
         Me.selectRTDoff.Checked = True
         Me.selectRTDoff.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.selectRTDoff.Location = New System.Drawing.Point(44, 17)
+        Me.selectRTDoff.Location = New System.Drawing.Point(32, 17)
         Me.selectRTDoff.Name = "selectRTDoff"
         Me.selectRTDoff.Size = New System.Drawing.Size(63, 17)
         Me.selectRTDoff.TabIndex = 0
