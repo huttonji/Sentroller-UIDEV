@@ -1,15 +1,7 @@
-<<<<<<< HEAD
-
-*
-Resources/*
-*.vb
-*.gitignore
-*.xlsx
-*.txt
-*
-=======
 *
 
 .vb
+.gitignore
 
->>>>>>> parent of a508c65... x
+*
+
