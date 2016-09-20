@@ -2,6 +2,7 @@
 
 .vb
 .gitignore
-
+.xlsx
+.txt
 *
 
