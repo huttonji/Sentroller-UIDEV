@@ -29,7 +29,6 @@ Public Class Form1
 
 
 
-
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
 
@@ -136,8 +135,8 @@ Public Class Form1
     End Sub
 
 
-    Private Sub buttonSendConfig_Click(sender As Object, e As EventArgs) Handles buttonSendConfig.Click
-        
+    Private Sub buttonSendConfig_Click(sender As Object, e As EventArgs)
+
 
         If hexCode = Nothing Then radioSelect(Me, e)
 
@@ -150,7 +149,7 @@ Public Class Form1
 
     End Sub
 
-    Private Sub radioSelect(sender As Object, e As EventArgs) Handles selectBURDon.Click, selectBURDoff.Click, selectBYP.Click, selectHV.Click, selectHarvest.Click, selectMeter.Click, selectRTDoff.Click, selectRTDon.Click
+    Private Sub radioSelect(sender As Object, e As EventArgs)
 
         Dim decCode(4) As Boolean
         decCode(0) = If(selectMeter.Checked = True, True, False)
@@ -169,12 +168,12 @@ Public Class Form1
 
     End Sub
 
-    Private Sub buttonSendConfig_MouseEnter(sender As Object, e As EventArgs) Handles buttonSendConfig.MouseEnter
+    Private Sub buttonSendConfig_MouseEnter(sender As Object, e As EventArgs)
         buttonSendConfig.BackgroundImage = My.Resources.b_blue_fuzz
 
     End Sub
 
-    Private Sub buttonSendConfig_MouseLeave(sender As Object, e As EventArgs) Handles buttonSendConfig.MouseLeave
+    Private Sub buttonSendConfig_MouseLeave(sender As Object, e As EventArgs)
         buttonSendConfig.BackgroundImage = My.Resources.b_blue
     End Sub
 End Class

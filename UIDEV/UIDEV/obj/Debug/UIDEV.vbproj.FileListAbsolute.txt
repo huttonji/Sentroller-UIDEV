@@ -14,3 +14,7 @@ C:\Users\Dmitry\Documents\GitHub\FIRMWARE\Sentroller-UIDEV\UIDEV\UIDEV\bin\Debug
 C:\Users\Dmitry\Documents\GitHub\FIRMWARE\Sentroller-UIDEV\UIDEV\UIDEV\obj\Debug\UIDEV.exe
 C:\Users\Dmitry\Documents\GitHub\FIRMWARE\Sentroller-UIDEV\UIDEV\UIDEV\obj\Debug\UIDEV.xml
 C:\Users\Dmitry\Documents\GitHub\FIRMWARE\Sentroller-UIDEV\UIDEV\UIDEV\obj\Debug\UIDEV.pdb
+C:\Users\Dmitry\Documents\GitHub\FIRMWARE\Sentroller-UIDEV\UIDEV\UIDEV\obj\Debug\UIDEV.vbprojResolveAssemblyReference.cache
+C:\Users\Dmitry\Documents\GitHub\FIRMWARE\Sentroller-UIDEV\UIDEV\UIDEV\obj\Debug\UIDEV.Form1.resources
+C:\Users\Dmitry\Documents\GitHub\FIRMWARE\Sentroller-UIDEV\UIDEV\UIDEV\obj\Debug\UIDEV.Resource1.resources
+C:\Users\Dmitry\Documents\GitHub\FIRMWARE\Sentroller-UIDEV\UIDEV\UIDEV\obj\Debug\UIDEV.vbproj.GenerateResource.Cache
